@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information about the University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="
+sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">  
+        <nav>
+            <a href="index.html"><img src="images/logo.png.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="/course.html">COURSE</a>
+
+                        </li>
+                    <li>
+                        <a href="/about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html">BLOG</a>
+                        
+                    </li>
+                    <li>
+                        <a href="/contact.html">CONTACT</a>
+                    </li>
+                    
+
+                </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+    </section>
+
+<!---about as content-->
+<section class="about-as">
+
+    <div class="row">
+        <div class="'about-col">
+            <h1>we are world best University</h1>
+            <p>Northern Arizona University (NAU) is a public research university based in Flagstaff, Arizona. 
+                Founded in 1899, it was the final public university established in the Arizona Territory,<br> 13 years before Arizona was admitted as the 48th state.
+                NAU is one of the three universities governed by the Arizona Board of Regents and accredited by the Higher Learning Commission.</p>
+                <a href="" class="hero-btn red-btn">EXPLRE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg.jpg">
+        </div>
+
+    </div>
+</section>
+
+
+<!---Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque aliquit turpis nulla, eleifend faucibus est <br>
+        sollecitidin ut. Maecenas ut venenatis ex, et dapibus purus
+        Donec sit.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+           
+            
+
+        </div>
+        <p>Made With <i class="fa-solid fa-heart"></i> by Thirupati</p>
+
+</section>
+
+<!----Javascript for toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>

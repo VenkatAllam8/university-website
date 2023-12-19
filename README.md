@@ -1,1 +1,1 @@
-# university-website
+# university.com
